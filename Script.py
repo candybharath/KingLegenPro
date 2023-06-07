@@ -88,9 +88,9 @@ Helps you to know your ping 🚶🏼‍♂️
 
     WHOIS_TXT ="""Who Is This ??"""
 
-    URLSHORT_TXT = """ Just Type /short 🤝"""
+    URLSHORT_TXT = """ oh nothing..... """
 
-    FUN_TXT ="""This Bot Doesn't Give a Shit About Fun, I don't Made This Bot For Fun.😪"""
+    FUN_TXT =""" This Bot Doesn't Give a Shit About Fun, I don't Made This Bot For Fun.😪 """
 
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
@@ -230,7 +230,7 @@ My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ 
 @ChewMovies"""
     ZOMBIES_TXT = """Oo Zombie Spotted, Also This Bot Is Not For You."""
     PIN_TXT ="""Why Do You Want To Pin 📍, If this Bot Is Not For You."""
-    FILE_TXT = """ Hey Man, I am Not For You 😅"""
+    FILE_TXT = """ Hey Man, I am Not For You 😅 """
 
 
 
