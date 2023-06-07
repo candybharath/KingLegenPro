@@ -90,7 +90,7 @@ Helps you to know your ping 🚶🏼‍♂️
 
     URLSHORT_TXT = """ oh nothing..... """
 
-    FUN_TXT =""" This Bot Doesn't Give a Shit About Fun, I don't Made This Bot For Fun 😪 """
+    FUN_TXT =""" This Bot Doesn't Give a Shit About Fun, I don't Made This Bot For Fun """
 
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
