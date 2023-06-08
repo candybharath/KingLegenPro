@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b>Hᴀɪ {},
-My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇꜱ💥💥🔥\n\n©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy: <a href=https://t.me/psycho_009>『ƬǤ』×͜×ᴅᴜᴅᴇ𓄀</a></b>"""
+My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇꜱ💥💥🔥\n\n©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy: <a href=https://t.me/myself_gon>Myself Gon.</a></b>"""
     
     HELP_TXT = """<b>𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
@@ -30,7 +30,7 @@ My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ 
 <b>- 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝚂 𝚃𝙷𝙴 𝙵𝙴𝙰𝚃𝚄𝚁𝙴 𝚆𝙴𝚁𝙴 𝚄𝚂𝙴𝚁𝚂 𝙲𝙰𝙽 𝚂𝙴𝚃 𝙰𝚄𝚃𝙾𝙼𝙰𝚃𝙴𝙳 𝚁𝙴𝙿𝙻𝙸𝙴𝚂 𝙵𝙾𝚁 𝙰 𝙿𝙰𝚁𝚃𝙸𝙲𝚄𝙻𝙰𝚁 𝙺𝙴𝚈𝚆𝙾𝚁𝙳 𝙰𝙽𝙳 BOT 𝚆𝙸𝙻𝙻 𝚁𝙴𝚂𝙿𝙾𝙽𝙳 𝚆𝙷𝙴𝙽𝙴𝚅𝙴𝚁 𝙰 𝙺𝙴𝚈𝚆𝙾𝚁𝙳 𝙸𝚂 𝙵𝙾𝚄𝙽𝙳 𝚃𝙷𝙴 𝙼𝙴𝚂𝚂𝙰𝙶𝙴</b>
 
 <b>NOTE:</b>
-<b>𝟷. PETER 𝚂𝙷𝙾𝚄𝙻𝙳 𝙷𝙰𝚅𝙴 𝙰𝙳𝙼𝙸𝙽 𝙿𝚁𝙸𝚅𝙸𝙻𝙻𝙰𝙶𝙴.
+<b>𝟷. Mr.White 𝚂𝙷𝙾𝚄𝙻𝙳 𝙷𝙰𝚅𝙴 𝙰𝙳𝙼𝙸𝙽 𝙿𝚁𝙸𝚅𝙸𝙻𝙻𝙰𝙶𝙴.
 𝟸. 𝙾𝙽𝙻𝚈 𝙰𝙳𝙼𝙸𝙽𝚂 𝙲𝙰𝙽 𝙰𝙳𝙳 𝙵𝙸𝙻𝚃𝙴𝚁𝚂 𝙸𝙽 𝙰 𝙲𝙷𝙰𝚃.
 𝟹. 𝙰𝙻𝙴𝚁𝚃 𝙱𝚄𝚃𝚃𝙾𝙽𝚂 𝙷𝙰𝚅𝙴 𝙰 𝙻𝙸𝙼𝙸𝚃 𝙾𝙵 𝟼𝟺 𝙲𝙷𝙰𝚁𝙰𝙲𝚃𝙴𝚁𝚂.</b>
 
@@ -42,7 +42,7 @@ My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ 
 
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-<b>𝙿𝙴𝚃𝙴𝚁 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝚂 𝙱𝙾𝚃𝙷 𝚄𝚁𝙻 𝙰𝙽𝙳 𝙰𝙻𝙴𝚁𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙱𝚄𝚃𝚃𝙾𝙽𝚂.</b>
+<b>Mr.White 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝚂 𝙱𝙾𝚃𝙷 𝚄𝚁𝙻 𝙰𝙽𝙳 𝙰𝙻𝙴𝚁𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙱𝚄𝚃𝚃𝙾𝙽𝚂.</b>
 <b>NOTE:</b>
 <b>𝟷. 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝚆𝙸𝙻𝙻 𝙽𝙾𝚃 𝙰𝙻𝙻𝙾𝚆𝚂 𝚈𝙾𝚄 𝚃𝙾 𝚂𝙴𝙽𝙳 𝙱𝚄𝚃𝚃𝙾𝙽𝚂 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝙰𝙽𝚈 𝙲𝙾𝙽𝚃𝙴𝙽𝚃, 𝚂𝙾 𝙲𝙾𝙽𝚃𝙴𝙽𝚃 𝙸𝚂 𝙼𝙰𝙽𝙳𝙰𝚃𝙾𝚁𝚈.
 𝟸. 𝙴𝙻𝚂𝙰 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝚂 𝙱𝚄𝚃𝚃𝙾𝙽𝚂 𝚆𝙸𝚃𝙷 𝙰𝙽𝚈 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙼𝙴𝙳𝙸𝙰 𝚃𝚈𝙿𝙴.
@@ -178,7 +178,7 @@ To Get Sticker ID
 <b>COMMAND</b> : /font your text (optional)
         <b> Eg:- /font Hello</b>
 
- <i>This feature added by @Ak_Links1"""
+ <i>This feature added by @JackeyBots"""
     JSON_TXT = """<b>JSON:</b>
 Bot returns json for all replied messages with /json or /js
 <b>Features:</b>
@@ -281,7 +281,7 @@ Name - {}
     SUR_TXT = """
 <b>
 Hᴀɪ {},
-My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇꜱ, Jᴜꜱᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ...... Tʜᴇɴ Sᴇᴇ My Pᴏᴡᴇʀꜱ💥💥🔥\n\n©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy: <a href=https://t.me/psycho_009>『ƬǤ』×͜×ᴅᴜᴅᴇ𓄀</a> 
+My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇꜱ💥💥🔥\n\n©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy: <a href=https://t.me/myself_gon>Myself Gon.</a> 
 </b>
 """
 
@@ -302,8 +302,8 @@ My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ 
     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <code>{file_name}</code>
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-➪<a href=https://t.me/MH_moviesgroup01> Mʜ Mᴏᴠɪᴇꜱ</a>
-➪<a href=https://t.me/+2p4g9JuMTBY1N2M1> Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ​ </a>
+➪<a href=https://t.me/chewmovies> ChewMovies</a>
+➪<a href=https://t.me/the_aecr> Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ​ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
     RESTART_TXT = """
@@ -336,7 +336,7 @@ My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ 
     CUDNT_FND = """ʜᴇʟʟᴏ {} ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
 
     REPRT_MSG = """ Join our group ask movies there
-    <code>[JOIN GROUP](buttonurl:https://t.me/Mowie_world)</code>"""
+    <code>[JOIN GROUP](buttonurl:https://t.me/ChewMovies)</code>"""
 
     CON_TXT = """<b><u>ᴄᴏᴜɴᴛʀʏ ɪɴғᴏ</b></u>
 <b>Tʜɪs ᴍᴏᴅᴜʟᴇ ɪs ᴛᴏ ғɪɴᴅ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴄᴏᴜɴᴛʀɪᴇs</b>
@@ -367,7 +367,7 @@ My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ 
 ➪ /pbatch ›› <b>𝚄𝚂𝙴 𝚈𝙾𝚄𝚁 𝙼𝙴𝙳𝙸𝙰 𝙻𝙸𝙽𝙺 𝚆𝙸𝚃𝙷 𝚃𝙷𝙸𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳.</b>
 ➪ /batch ›› <b>𝚃𝙾 𝙲𝚁𝙴𝙰𝚃𝙴 𝙻𝙸𝙽𝙺 𝙵𝙾𝚁 𝙼𝚄𝙻𝚃𝙸𝙿𝙻𝙴 𝙵𝙸𝙻𝙴𝚂.</b>
 ⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
-<code>/batch https://t.me/MatRixBotzTG https://t.me/MatRixBotzTG</code>
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/psycho_009><b>Ak Dev</b></a>"""
+<code>/batch https://t.me/jackeybots/1 https://t.me/jackeybots/5</code>
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/clause07><b>Myself Deku</b></a>"""
 
 
