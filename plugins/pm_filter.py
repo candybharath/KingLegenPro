@@ -120,7 +120,7 @@ async def pm_text(bot, message):
     user = message.from_user.first_name
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    await message.reply_text("<b>Hᴇʏ Dᴜᴅᴇ🥰,\n\nYᴏᴜ ᴄᴀɴ'ᴛ Gᴇᴛ ᴍᴏᴠɪᴇ ʜᴇʀᴇ........\nAꜱᴋ ᴍᴏᴠɪᴇ ᴏɴ ᴏᴜʀ ɢʀᴏᴜᴘ\nCʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ 𝚓ᴏɪɴ👇</b>",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"https://t.me/MH_moviesgroup01")]]))
+    await message.reply_text("<b>Hᴇʏ Dᴜᴅᴇ🥰,\n\nYᴏᴜ ᴄᴀɴ'ᴛ Gᴇᴛ ᴍᴏᴠɪᴇ ʜᴇʀᴇ........\nAꜱᴋ ᴍᴏᴠɪᴇ ᴏɴ ᴏᴜʀ ɢʀᴏᴜᴘ\nCʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ 𝚓ᴏɪɴ👇</b>",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"https://t.me/pirate_cinemas_group")]]))
     await bot.send_message(chat_id=ADMINS,text=f"<b>#PM_MSG\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>")
 
 @Client.on_callback_query(filters.regex(r"^next"))
@@ -754,16 +754,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
 
     elif query.data == "reqinfo":
-        await query.answer("⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\n\nᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ\n\nɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ\n\n❣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀᴋ ᴍᴏᴠɪᴇꜱ", show_alert=True)
+        await query.answer("⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\n\nᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ\n\nɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ\n\n❣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ChewMovies", show_alert=True)
 
     elif query.data == "minfo":
-        await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴀᴠᴀᴛᴀʀ: ᴛʜᴇ ᴡᴀʏ ᴏғ ᴡᴀᴛᴇʀ\n\n🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)\n\n©️ ᴀᴋ ᴍᴏᴠɪᴇꜱ", show_alert=True)
+        await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴀᴠᴀᴛᴀʀ: ᴛʜᴇ ᴡᴀʏ ᴏғ ᴡᴀᴛᴇʀ\n\n🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)\n\n©️ ChewMovies", show_alert=True)
 
     elif query.data == "sinfo":
-        await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴍᴏɴᴇʏ ʜᴇɪsᴛ S01E01\n\n🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)\n\n©️ ᴀᴋ ᴍᴏᴠɪᴇꜱ", show_alert=True)      
+        await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴍᴏɴᴇʏ ʜᴇɪsᴛ S01E01\n\n🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)\n\n©️ ChewMovies", show_alert=True)      
 
     elif query.data == "tinfo":
-        await query.answer("▣ ᴛɪᴘs ▣\n\n★ ᴛʏᴘᴇ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ (ɢᴏᴏɢʟᴇ)\n\n★ ɪғ ʏᴏᴜ ɴᴏᴛ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇ ɪɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛʜᴇɴ ᴛʜᴇ ɴᴇxᴛ sᴛᴇᴘ ɪs ᴄʟɪᴄᴋ ɴᴇxᴛ ʙᴜᴛᴛᴏɴ.\n\n★ ᴄᴏɴᴛɪɴᴜᴇ ᴛʜɪs ᴍᴇᴛʜᴏᴅ ᴛᴏ ɢᴇᴛᴛɪɴɢ ʏᴏᴜ ғɪʟᴇ\n\n❣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀᴋ ᴍᴏᴠɪᴇꜱ", show_alert=True)
+        await query.answer("▣ ᴛɪᴘs ▣\n\n★ ᴛʏᴘᴇ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ (ɢᴏᴏɢʟᴇ)\n\n★ ɪғ ʏᴏᴜ ɴᴏᴛ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇ ɪɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛʜᴇɴ ᴛʜᴇ ɴᴇxᴛ sᴛᴇᴘ ɪs ᴄʟɪᴄᴋ ɴᴇxᴛ ʙᴜᴛᴛᴏɴ.\n\n★ ᴄᴏɴᴛɪɴᴜᴇ ᴛʜɪs ᴍᴇᴛʜᴏᴅ ᴛᴏ ɢᴇᴛᴛɪɴɢ ʏᴏᴜ ғɪʟᴇ\n\n❣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ChewMovies", show_alert=True)
 
     elif query.data == "surprise":
         btn = [[
@@ -818,7 +818,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('↭Hᴏᴍᴇ↭', callback_data='start'),
             InlineKeyboardButton('✇Sᴛᴀᴛᴜꜱ✇', callback_data='stats')
             ],[
-            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+2p4g9JuMTBY1N2M1')
+            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/jackeybots')
          ]] 
         reply_markup = InlineKeyboardMarkup(buttons)             
         await query.message.edit_text(                     
@@ -881,7 +881,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('⌬Uᴩᴅᴀᴛᴇꜱ⌬', callback_data='updates'),
-            InlineKeyboardButton('✇ʀᴇᴘᴏ✇', url='https://t.me/+2p4g9JuMTBY1N2M1'),
+            InlineKeyboardButton('✇ʀᴇᴘᴏ✇', url='https://t.me/the_aecr'),
         ],[
             InlineKeyboardButton('↭ʜᴏᴍᴇ↭', callback_data='start'),
             InlineKeyboardButton('×ᴄʟᴏsᴇ×', callback_data='close_data')
@@ -899,8 +899,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "updates":
         buttons = [[
-            InlineKeyboardButton('⌬Sᴜᴩᴩᴏʀᴛ Gʀᴏᴜᴩ⌬', url='https://t.me/MH_moviesgroup01'),
-            InlineKeyboardButton('⌬Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ⌬', url='https://t.me/+2p4g9JuMTBY1N2M1')
+            InlineKeyboardButton('⌬Sᴜᴩᴩᴏʀᴛ Gʀᴏᴜᴩ⌬', url='https://t.me/pirate_cinemas_group'),
+            InlineKeyboardButton('⌬Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ⌬', url='https://t.me/jackeybots')
             ],[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='about')
         ]]
@@ -912,10 +912,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "updatesane":
         buttons = [[
-            InlineKeyboardButton('⌬Gʀᴏᴜᴩ 1⌬', url='https://t.me/MH_moviesgroup01'),
-            InlineKeyboardButton('⌬Gʀᴏᴜᴩ2⌬', url='https://t.me/MM_MalluMoviesGroup2')
+            InlineKeyboardButton('⌬Gʀᴏᴜᴩ 1⌬', url='https://t.me/pirate_cinemas_group'),
+            InlineKeyboardButton('⌬Gʀᴏᴜᴩ2⌬', url='https://t.me/botsworkshop')
             ],[
-            InlineKeyboardButton('⌬Mᴏᴠɪᴇ Uᴩᴅᴀᴛᴇꜱ⌬', url='https://t.me/+2p4g9JuMTBY1N2M1')
+            InlineKeyboardButton('⌬Mᴏᴠɪᴇ Uᴩᴅᴀᴛᴇꜱ⌬', url='https://t.me/the_aecr')
             ],[
             InlineKeyboardButton('↭Bᴀᴄᴋ Tᴏ Sᴛᴀʀᴛ↭', callback_data='start')
         ]]
@@ -927,7 +927,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "ownerane":
         buttons = [[
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ', url='https://t.me/About_AKSer'),
+            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ', url='https://t.me/myself_gon'),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1116,8 +1116,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "deploy":
         buttons = [[
-           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/matrixbotz0/PETER-PARKER-BOT'),
-           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/About_AKSer')
+           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/chewmovies'),
+           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/myself_gon')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
@@ -1532,7 +1532,7 @@ async def auto_filter(client, msg, spoll=False):
                         await message.delete()
     else:
         if message.chat.id == SUPPORT_CHAT_ID:
-            await message.reply_text(f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search}. Kɪɴᴅʟʏ ᴜsᴇ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴏʀ ᴍᴀᴋᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs. Tʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...</b>",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"https://t.me/MH_moviesgroup01")]]))
+            await message.reply_text(f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search}. Kɪɴᴅʟʏ ᴜsᴇ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴏʀ ᴍᴀᴋᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs. Tʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...</b>",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"https://t.me/pirate_cinemas_group")]]))
         else:
             fuk = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
             try:
